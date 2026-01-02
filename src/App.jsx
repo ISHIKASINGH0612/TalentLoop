@@ -1,62 +1,9 @@
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-// import './App.css';
-// import AppLayout from './Layouts/app-layout';
-// import LandingPage from './pages/landing';
-// import Onboarding from './pages/onboarding';
-// import JobListing from './pages/job-listing'; 
-// import JobPage from './pages/job';
-// import MyJobs from './pages/my-jobs';
-// import PostJob from './pages/post-job';
-// import SaveJobs from './pages/saved-job';
 
-// const router=createBrowserRouter(
-//   [
-//     {
-//       element:<AppLayout/>,
-//       children:[
-//         {path:'/',
-//         element:<LandingPage/>},
-
-//          {path:'/onboarding',
-//         element:<Onboarding/>},
-
-//         {path:'/job-listing',
-//         element:<JobListing/>},
-
-//         {path:'/job',
-//         element:<JobPage/>},
-
-//         {path:'/my-job',
-//         element:<MyJobs/>},
-
-//         {path:'/post-job',
-//         element:<PostJob/>},
-
-//         {path:'/saved-job',
-//         element:<SaveJobs/>}
-
-
-//         ]
-
-
-//     }
-//   ]
-// )
-
-
-// function App()
-// {
-//   return(
-//    <RouterProvider router={router}/>
-//   )
-// }
-
-// export default App;
 
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-import AppLayout from "./layouts/app-layout";
+import AppLayout from "./Layouts/app-layout";
 import ProtectedRoute from "./components/protected-route";
 import { ThemeProvider } from "./components/theme-provider";
 
