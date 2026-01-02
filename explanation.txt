@@ -3,3 +3,14 @@ WE ARE USING SHADCNUI FOR MAKING UI COMPONENTS
 shadcn/ui is a modern UI component system for React that provides pre-built, accessible, and customizable components built on top of Radix UI and Tailwind CSS, where components are copied directly into your project instead of being installed as a dependency; this gives you full control over the code, styling, and behavior, makes customization easy, avoids dependency lock-in, and is ideal for building clean, scalable, and production-ready interfaces (especially popular with React, Vite, and Next.js projects).
 
 npx shadcn@latest add button accordion carousel card drawer input radio-group select textarea
+
+
+SINCE OUR WEBSITE IS OF MULTIPAGE, WE WILL NEED REACT ROUTER DOM
+
+ npm i react-router-dom
+ React Router ek library hai jo React app ko multiple pages jaisa behave karwati hai
+— bina page reload ke.
+Matlab:
+URL change hota hai (/login, /jobs, /profile)
+Browser reload nahi hota
+React different components dikhata hai
