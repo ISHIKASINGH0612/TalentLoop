@@ -65,7 +65,7 @@ import Onboarding from "./pages/onboarding";
 import PostJob from "./pages/post-job";
 import JobListing from "./pages/jobListing";
 import MyJobs from "./pages/my-jobs";
-import SavedJobs from "./pages/saved-jobs";
+import SavedJobs from "./pages/saved-job";
 import JobPage from "./pages/job";
 
 import "./App.css";

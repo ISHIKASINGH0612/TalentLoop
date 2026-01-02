@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/accordion";
 import { Link } from "react-router-dom";
 
+
 const LandingPage = () => {
   return (
     <main className="flex flex-col gap-10 sm:gap-20 py-10 sm:py-20">
